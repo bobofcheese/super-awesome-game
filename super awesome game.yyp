@@ -35,12 +35,19 @@
   },
   "name":"super awesome game",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"id":{"name":"scr_collide","path":"scripts/scr_collide/scr_collide.yy",},},
+    {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
+    {"id":{"name":"spr_playernewgen","path":"sprites/spr_playernewgen/spr_playernewgen.yy",},},
+    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
