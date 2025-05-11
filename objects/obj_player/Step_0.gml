@@ -10,7 +10,7 @@ if keyboard_check_direct(vk_backspace)
 game_restart()
 
 if grounded && keyboard_check_pressed(vk_up)
-ysp = -14
+ysp = -20 // normal jump thing is like 14
 
 if ysp < 0 && place_meeting(x, y - 1, obj_solid)
 {
