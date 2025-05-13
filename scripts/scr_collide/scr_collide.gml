@@ -6,42 +6,41 @@ function scr_collide_init(){
 }
 
 function scr_collide(){
-	var xprev = x;
-	var yprev = y;
 	
-	if !place_meeting(x + xsp, y, obj_solid)
+	// x
+	var xfinal = round(x + xsp)
+	if !scr_solid(xfinal, y)
 	{
-		x += xsp
+		x = xfinal
 	}
 	else
 	{
-		while !place_meeting(x, y, obj_solid)
+		while !scr_solid(x + sign(xsp), y)
 		{
 			x += sign(xsp)
 		}
-		x -= sign(xsp)
 	}
-	if !place_meeting(x, y + ysp, obj_solid)
+	
+	// y
+	var yfinal = round(y + ysp)
+	if !scr_solid(x, yfinal)
 	{
-		y += ysp
+		y = yfinal
 	}
 	else
 	{
-		while !place_meeting(x, y, obj_solid)
+		while !scr_solid(x, y + sign(ysp))
 		{
 			y += sign(ysp)
 		}
-		y -= sign(ysp)
 	}
-	if !place_meeting(x, y + 1, obj_solid)
-	{
+	
+	
+	if !scr_solid(x, y + 1) {
 		grounded = false
-		ysp += grav
-	}
-	else
-	{
+		ysp += grav }
+	else {
 		ysp = grav
-		grounded = true
-	}
+		grounded = true }
 	return;
 }

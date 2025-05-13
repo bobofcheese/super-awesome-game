@@ -35,6 +35,9 @@
     "name":"spr_playernewgen",
     "path":"sprites/spr_playernewgen/spr_playernewgen.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_playernewgen",
+    "path":"sprites/spr_playernewgen/spr_playernewgen.yy",
+  },
   "visible":true,
 }
