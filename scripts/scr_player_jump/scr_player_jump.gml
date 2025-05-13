@@ -14,6 +14,27 @@ function scr_player_jump(){
 	if ysp >= maxfall
 		ysp = maxfall
 	
+	if !jumpstop && !key_jump && ysp < grav
+	{
+		ysp += grav
+		jumpstop = true
+	}
+	else if jumpstop
+	{
+		if ysp < 0
+			ysp += grav
+		else
+			jumpstop = false
+	}
+	if cayote != 0 && buffer_jump > 0
+	{
+		ysp = jumph
+		state = states.jump
+		buffer_jump = 0
+		cayote = 0
+	}
+	if cayote > 0
+		cayote--
 	
 	if grounded
 		state = states.normal

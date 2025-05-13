@@ -1,0 +1,1 @@
+targetroom = TestRoom_jinx

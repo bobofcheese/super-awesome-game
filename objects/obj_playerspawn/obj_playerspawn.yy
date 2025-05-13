@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
+  "%Name":"obj_playerspawn",
   "eventList":[],
   "managed":true,
-  "name":"obj_solid",
+  "name":"obj_playerspawn",
   "overriddenProperties":[],
   "parent":{
     "name":"collision",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_solid",
-    "path":"sprites/spr_solid/spr_solid.yy",
+    "name":"spr_spawn",
+    "path":"sprites/spr_spawn/spr_spawn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
