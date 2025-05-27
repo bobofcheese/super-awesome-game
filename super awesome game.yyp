@@ -59,6 +59,7 @@
     {"id":{"name":"scr_solid","path":"scripts/scr_solid/scr_solid.yy",},},
     {"id":{"name":"scr_utli","path":"scripts/scr_utli/scr_utli.yy",},},
     {"id":{"name":"snd_jinx","path":"sounds/snd_jinx/snd_jinx.yy",},},
+    {"id":{"name":"snd_usethisforsomethingidk","path":"sounds/snd_usethisforsomethingidk/snd_usethisforsomethingidk.yy",},},
     {"id":{"name":"spr_goal_jinx","path":"sprites/spr_goal_jinx/spr_goal_jinx.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
     {"id":{"name":"spr_loco","path":"sprites/spr_loco/spr_loco.yy",},},
